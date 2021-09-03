@@ -69,6 +69,13 @@ p {
     background: var(--header-colour)
 }
 
+.appTitle {
+    display: fixed;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #000000;
+}
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -102,7 +109,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .imagecont {

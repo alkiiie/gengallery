@@ -78,3 +78,40 @@ p {
     z-index: 111;
     background: var(--footer-colour)
 }
+
+.viewerdisplay {
+    position: fixed;
+    margin-left: 4em;
+    margin-right: 4em;
+    top: 5.5em;
+    padding: 3.5em 0 45.5em;
+    left: 0;
+    right: 0;
+}
+
+.viewer {
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    min-height: 150px;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    z-index: 0;
+    background: var(--viewer-colour);
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.imagecont {
+    display: flex;
+    width: 260px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.image {
+    width: 260px;
+    height: 280px;
+    border-radius: 5px;
+}

@@ -1,0 +1,161 @@
+/* Copyright (c) 2019-2021 XXRT5. */
+
+@import url("colours.css");
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 250;
+    src: url('../res/font/Torus/thin.otf');
+}
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 300;
+    src: url('../res/font/Torus/light.otf');
+}
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 400;
+    src: url('../res/font/Torus/standard.otf');
+}
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 600;
+    src: url('../res/font/Torus/semibold.otf');
+}
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 700;
+    src: url('../res/font/Torus/bold.otf');
+}
+
+@font-face {
+    font-family: "Torus";
+    font-weight: 900;
+    src: url('../res/font/Torus/heavy.otf');
+}
+
+html {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-family: Torus;
+    -moz-user-select: none!important;
+    -webkit-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important
+}
+
+body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background: var(--main-colour);
+}
+
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    z-index: 111;
+    background: var(--header-colour)
+}
+
+.appTitle {
+    position: fixed;
+    margin-top: 15px;
+    margin-left: 20px;
+    color: #000000;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 40px;
+    z-index: 111;
+    background: var(--footer-colour)
+}
+
+.viewerdisplay {
+    position: absolute;
+    margin-left: 6em;
+    margin-right: 6em;
+    top: 5.5em;
+    padding: 1em 0 45.5em;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.viewer {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    min-height: min-content;
+    mix-blend-mode: normal;
+    border-radius: 5px;
+    z-index: 0;
+    background: var(--viewer-colour);
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+.imagecont {
+    position: relative;
+    width: 260px;
+    height: 280px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.image {
+    width: 260px;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.appDevName {
+    display: block;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.appContNote {
+    display: block;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: right;
+}
+
+.appDevName a {
+    display: inline-block;
+    text-decoration: none;
+    color: #66424a
+}
+
+.appContNote a {
+    display: inline-block;
+    text-decoration: none;
+    color: #416655
+}

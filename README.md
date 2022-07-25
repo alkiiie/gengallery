@@ -1,13 +1,11 @@
-## Fluffy dogs
+## Dogs gallery
 
-Simple to view website with cute doggos!
+Easy to navigate, dog things to see everywhere!
 
 ----- Contributing -----
 
-You are free to open pull requests with new photos and/or code to accompany them.
-
-Please read CONTRIBUTING.md for more information.
+You are free to open pull requests adding new photos or new code, read CONTRIBUTING.md for more information.
 
 ----- Information -----
 
-This repository is maintained by me (XXRT5), and pull requests are merged as I go.
+This repository is maintained by me (alkiiie).

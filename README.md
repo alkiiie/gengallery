@@ -1,6 +1,6 @@
 ## Dogs gallery
 
-Easy to navigate, dog things to see everywhere!
+Calm yourself, look at some dogs.
 
 ----- Contributing -----
 

@@ -127,6 +127,16 @@ p {
     margin-bottom: 10px;
 }
 
+.emptyField b {
+    font-weight: 450;
+    color: #55738b
+}
+
+.emptyField a {
+    text-decoration: none;
+    color: #558b66
+}
+
 .image {
     width: 260px;
     height: 280px;

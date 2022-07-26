@@ -1,13 +1,13 @@
 ## Uploading photos
 
-Images can be uploaded to this repository by forking it and then uploading them.
+Images can be uploaded to this repository by forking it and then uploading them to the appropriate directory.
 
-To start, you need to make a new branch in your fork (**DO NOT USE THE MASTER BRANCH**). You can do so by following [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
+To start, you need to make a new branch in your fork (do not use your master branch). You can do so by following [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
 
-Images **MUST** be in numerical order and in .png format (ex: 1.png, 2.png, 3.png).
+Images must be in .png format, and be in numbered format, continuing off of what is already there (2.png, 3.png, 3.png, etc, etc).
 
-When you have uploaded your images, open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) with a short explanation and number range (e.g, 1-5, 6-10) of files you've uploaded.
+When you have uploaded your images, open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) noting what you've added and the range of numbers you have added.
 
-I (XXRT5) will review your pull request when I can, and make space on the site to display your photo(s).
+Your pull request will be reviewed as time is available, and space will be made as needed to fit the images in.
 
-**Note**: I may remove or replace images that I believe are not appropriate or unsuitable for this repository. If I modify or remove photos that you have uploaded, I will notify you of this in your pull request.
+**Note**: Images that are not related to this repository, are not appropriate, or not suitable altogether, may be removed at maintainer's discretion.

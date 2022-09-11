@@ -2,10 +2,36 @@
 
 @import url("colours.css");
 
+/* note: "ft" is the Comfortaa font - you can replace it with your font of choice, renaming the static weights to "ft-(weight).(ext)". */
+
 @font-face {
     font-family: "ft";
-    font-weight: 000;
-    src: url('../res/font/ft/');
+    font-weight: 300;
+    src: url('../res/font/ft/ft-300.ttf');
+}
+
+@font-face {
+    font-family: "ft";
+    font-weight: 400;
+    src: url('../res/font/ft/ft-400.ttf');
+}
+
+@font-face {
+    font-family: "ft";
+    font-weight: 500;
+    src: url('../res/font/ft/ft-500.ttf');
+}
+
+@font-face {
+    font-family: "ft";
+    font-weight: 600;
+    src: url('../res/font/ft/ft-600.ttf');
+}
+
+@font-face {
+    font-family: "ft";
+    font-weight: 700;
+    src: url('../res/font/ft/ft-700.ttf');
 }
 
 html {

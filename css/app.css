@@ -2,47 +2,43 @@
 
 @import url("colours.css");
 
-@font-face {
-    font-family: "Torus";
-    font-weight: 250;
-    src: url('../res/font/Torus/thin.otf');
-}
+/* note: "ft" is the Comfortaa font - you can replace it with your font of choice, renaming the static weights to "ft-(weight).(ext)". */
 
 @font-face {
-    font-family: "Torus";
+    font-family: "ft";
     font-weight: 300;
-    src: url('../res/font/Torus/light.otf');
+    src: url('../res/font/ft/ft-300.ttf');
 }
 
 @font-face {
-    font-family: "Torus";
+    font-family: "ft";
     font-weight: 400;
-    src: url('../res/font/Torus/standard.otf');
+    src: url('../res/font/ft/ft-400.ttf');
 }
 
 @font-face {
-    font-family: "Torus";
+    font-family: "ft";
+    font-weight: 500;
+    src: url('../res/font/ft/ft-500.ttf');
+}
+
+@font-face {
+    font-family: "ft";
     font-weight: 600;
-    src: url('../res/font/Torus/semibold.otf');
+    src: url('../res/font/ft/ft-600.ttf');
 }
 
 @font-face {
-    font-family: "Torus";
+    font-family: "ft";
     font-weight: 700;
-    src: url('../res/font/Torus/bold.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 900;
-    src: url('../res/font/Torus/heavy.otf');
+    src: url('../res/font/ft/ft-700.ttf');
 }
 
 html {
     display: block;
     width: 100%;
     height: 100%;
-    font-family: Torus, serif;
+    font-family: ft, serif;
     -moz-user-select: none!important;
     -webkit-user-select: none!important;
     -ms-user-select: none!important;
@@ -64,6 +60,31 @@ p {
     margin-inline-start: 0;
     margin-inline-end: 0;
     margin: 0;
+}
+
+.hlOne {
+    text-decoration: none;
+    color: var(--hl-standout-one);
+}
+
+.hlTwo {
+    text-decoration: none;
+    color: var(--hl-standout-two);
+}
+
+.hlThree {
+    text-decoration: none;
+    color: var(--hl-standout-three);
+}
+
+.hlFour {
+    text-decoration: none;
+    color: var(--hl-standout-four);
+}
+
+.hlFive {
+    text-decoration: none;
+    color: var(--hl-standout-five);
 }
 
 .header {
@@ -129,12 +150,6 @@ p {
 
 .emptyField b {
     font-weight: 450;
-    color: #55738b
-}
-
-.emptyField a {
-    text-decoration: none;
-    color: #558b66
 }
 
 .image {
@@ -145,9 +160,13 @@ p {
 
 .appDevName {
     display: block;
-    margin-left: 10px;
+    margin-left: 25px;
     margin-top: 10px;
     float: left;
+}
+
+.appDevName a {
+    display: inline-block;
 }
 
 .appContNote {
@@ -157,14 +176,6 @@ p {
     float: right;
 }
 
-.appDevName a {
-    display: inline-block;
-    text-decoration: none;
-    color: #555d8b
-}
-
 .appContNote a {
     display: inline-block;
-    text-decoration: none;
-    color: #558b66
 }

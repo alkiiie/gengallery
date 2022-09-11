@@ -1,11 +1,7 @@
-## Dogs gallery
+## Adaptive gallery
 
-Calm yourself, look at some dogs.
+Quickly display photos of whatever you want, with minimal work required.
 
 ----- Contributing -----
 
-You are free to open pull requests adding new photos or new code, read CONTRIBUTING.md for more information.
-
------ Information -----
-
-This repository is maintained by me (alkiiie).
+Contributions are welcomed; read CONTRIBUTING.md beforehand.

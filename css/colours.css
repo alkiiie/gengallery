@@ -9,5 +9,9 @@
     --footer-colour: #c0bcd4;
 
     /* Miscellanious colouring - these are used for link colours and other things. Refer to app.css to see how these are used. */
-    
+    --hl-standout-one: #6076a0;
+    --hl-standout-two: #60a097;
+    --hl-standout-three: #8660a0;
+    --hl-standout-four: #7660a0;
+    --hl-standout-five: #608ca0;
 }

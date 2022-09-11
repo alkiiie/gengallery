@@ -3,39 +3,9 @@
 @import url("colours.css");
 
 @font-face {
-    font-family: "Torus";
-    font-weight: 250;
-    src: url('../res/font/Torus/thin.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 300;
-    src: url('../res/font/Torus/light.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 400;
-    src: url('../res/font/Torus/standard.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 600;
-    src: url('../res/font/Torus/semibold.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 700;
-    src: url('../res/font/Torus/bold.otf');
-}
-
-@font-face {
-    font-family: "Torus";
-    font-weight: 900;
-    src: url('../res/font/Torus/heavy.otf');
+    font-family: "ft";
+    font-weight: 000;
+    src: url('../res/font/ft/');
 }
 
 html {
@@ -64,6 +34,31 @@ p {
     margin-inline-start: 0;
     margin-inline-end: 0;
     margin: 0;
+}
+
+.hlOne {
+    text-decoration: none;
+    color: var(--hl-standout-one);
+}
+
+.hlTwo {
+    text-decoration: none;
+    color: var(--hl-standout-two);
+}
+
+.hlThree {
+    text-decoration: none;
+    color: var(--hl-standout-three);
+}
+
+.hlFour {
+    text-decoration: none;
+    color: var(--hl-standout-four);
+}
+
+.hlFive {
+    text-decoration: none;
+    color: var(--hl-standout-five);
 }
 
 .header {
@@ -129,12 +124,6 @@ p {
 
 .emptyField b {
     font-weight: 450;
-    color: #55738b
-}
-
-.emptyField a {
-    text-decoration: none;
-    color: #558b66
 }
 
 .image {
@@ -150,6 +139,10 @@ p {
     float: left;
 }
 
+.appDevName a {
+    display: inline-block;
+}
+
 .appContNote {
     display: block;
     margin-right: 25px;
@@ -157,14 +150,6 @@ p {
     float: right;
 }
 
-.appDevName a {
-    display: inline-block;
-    text-decoration: none;
-    color: #555d8b
-}
-
 .appContNote a {
     display: inline-block;
-    text-decoration: none;
-    color: #558b66
 }

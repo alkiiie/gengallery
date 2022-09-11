@@ -1,13 +1,23 @@
 ## Uploading photos
 
-Images can be uploaded to this repository by forking it and then uploading them to the appropriate directory.
+When you upload photos, please take note of the insert available in the dev folder, as they are tried and testedto properly work with the index code.
 
-To start, you need to make a new branch in your fork (do not use your master branch). You can do so by following [this guide](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
+The insert should be placed within the `viewer` class, under `appViewer`, like so:
 
-Images must be in .png format, and be in numbered format, continuing off of what is already there (2.png, 3.png, 3.png, etc, etc).
+```html
 
-When you have uploaded your images, open a [pull request](https://docs.github.com/en/github/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests) noting what you've added and the range of numbers you have added.
+        <div class="viewerdisplay" id="appViewer">
+            <div class="viewer">
 
-Your pull request will be reviewed as time is available, and space will be made as needed to fit the images in.
+                <div class="imagecont" id="image[]">
+                    <img src="img/[].png" alt="Image []" class="image">
+                </div>
 
-**Note**: Images that are not related to this repository, are not appropriate, or not suitable altogether, may be removed at maintainer's discretion.
+            </div>
+        </div>
+
+```
+
+Under `img` folder, the images uploaded should be numbered `01,02,03` corresponding to the order you want to display them in.
+
+Images are displayed left-to-right, amount of images displayed on a single row depends on the width of the viewing device.

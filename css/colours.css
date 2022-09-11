@@ -1,8 +1,13 @@
 /* This file is reserved for colour usages. Please do not modify it. */
 
 :root {
-    --main-colour: #ffedf6;
-    --viewer-colour: #d3bcd6;
-    --header-colour: #c7bcd4;
-    --footer-colour: #c7bcd4;
+
+    /* Main display colouring - refer to app.css for information on these colour usages. */
+    --main-colour: #ddd6ff;
+    --viewer-colour: #c1bcd6;
+    --header-colour: #c0bcd4;
+    --footer-colour: #c0bcd4;
+
+    /* Miscellanious colouring - these are used for link colours and other things. Refer to app.css to see how these are used. */
+    
 }

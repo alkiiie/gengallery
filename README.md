@@ -1,7 +1,6 @@
-## Adaptive gallery
+## Quick display gallery
 
-Quickly display photos of whatever you want, with minimal work required.
+Quickly show off some photos, minimal effort needed.
 
------ Contributing -----
-
-Contributions are welcomed; read CONTRIBUTING.md beforehand.
+** changes? updates?     
+no
